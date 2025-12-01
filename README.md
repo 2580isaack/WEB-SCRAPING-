@@ -38,20 +38,20 @@ This project scrapes smartphone product data from **Jumia Kenya**, cleans and pr
 
 This project automatically:
 
-✔ Scrapes all smartphone product listings from **Jumia Kenya**
-✔ Supports **multi-page pagination scraping**
-✔ Extracts **name, price, old price, product link**
-✔ Cleans, structures, and preprocesses the dataset
-✔ Handles missing data using smart rules
-✔ Computes discount percentages and variation metrics
-✔ Generates visualizations and statistical summaries
-✔ Produces **cleaned CSV outputs** + **top discount report**
+- Scrapes all smartphone product listings from **Jumia Kenya**
+- Supports **multi-page pagination scraping**
+- Extracts **name, price, old price, product link**
+- Cleans, structures, and preprocesses the dataset
+- Handles missing data using smart rules
+- Computes discount percentages and variation metrics
+- Generates visualizations and statistical summaries
+- Produces **cleaned CSV outputs** + **top discount report**
 
 ---
 
 # **🕸️ Web Scraping Features**
 
-### ✔ **Smart Pagination Extraction**
+### **Smart Pagination Extraction**
 
 Supports multiple pagination styles:
 
@@ -60,14 +60,14 @@ Supports multiple pagination styles:
 # pagination type 2       ->  aria-label="Next Page"
 ```
 
-### ✔ **Product Fields Scraped**
+###  **Product Fields Scraped**
 
 * Product name
 * Current price
 * Old price
 * Full product URL
 
-### ✔ **Crawl Safety**
+###  **Crawl Safety**
 
 * Request headers
 * 3-second delay between pages
@@ -152,19 +152,19 @@ next_btn2 = soup.find("a", {"aria-label": "Next Page"}) # Pagination type 2
 
 ## **2️⃣ Data Cleaning Pipeline**
 
-### ✔ Remove duplicate products
+### Remove duplicate products
 
-### ✔ Trim product names to 4 key words
+### Trim product names to 4 key words
 
-### ✔ Clean price fields from `"KSh 20,000"` → `20000`
+### Clean price fields from `"KSh 20,000"` → `20000`
 
-### ✔ Handle missing values dynamically:
+### Handle missing values dynamically:
 
 * **<5% missing** → drop rows
 * **5–30% missing** → impute
 * **>30% missing** → flagged for manual handling
 
-### ✔ Compute discount percentage
+### Compute discount percentage
 
 ```python
 df['discount_percent'] = ((old_price - price) / old_price) * 100
@@ -246,13 +246,5 @@ You may modify, reuse, or extend it freely.
 Data Scientist & Statistician
 Passionate about automation, analytics, and clean data pipelines.
 
----
 
-If you'd like, I can also:
-
-✅ Generate a **GitHub-friendly project cover banner**
-✅ Break this README into sections with collapsible dropdowns
-✅ Add screenshots of charts or CSV previews
-
-Just tell me!
 
