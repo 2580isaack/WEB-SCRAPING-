@@ -1,9 +1,3 @@
-Below is your **complete, badge-styled, professional GitHub README.md**, fully tailored to YOUR code — including features, setup, data pipeline, pagination scraping, cleaning pipeline, EDA, charts, outputs, and project structure.
-
-It is formatted, clean, and ready to paste into GitHub.
-
----
-
 # **📘 Jumia Smartphone Price Scraper & Data Analysis**
 
 A complete **web scraping + data cleaning + exploratory data analysis (EDA)** pipeline built in **Python + BeautifulSoup + Pandas + Matplotlib/Seaborn**.
