@@ -2,19 +2,11 @@
 
 A complete **web scraping + data cleaning + exploratory data analysis (EDA)** pipeline built in **Python + BeautifulSoup + Pandas + Matplotlib/Seaborn**.
 This project scrapes smartphone product data from **Jumia Kenya**, cleans and preprocesses it, and performs full statistical and visual analysis.
-
 ---
-
 <p align="center">
-
 🎯 **End-to-end Automated Data Pipeline**
 🔎 **Web Scraping** • 🧼 **Data Cleaning** • 📊 **EDA** • 🔄 **Pagination**
-
 </p>
-
----
-
-## **🏷️ Badges**
 
 <p align="left">
 <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge"/>
@@ -170,15 +162,15 @@ df['discount_percent'] = ((old_price - price) / old_price) * 100
 
 Includes:
 
-📌 Summary statistics
-📌 Dataset shape
-📌 Missing values table
-📌 Histograms (price, old price)
-📌 Boxplots
-📌 Scatter plot (old price vs current price)
-📌 Correlation matrix
-📌 Price variation analysis
-📌 Top & bottom 20 variation reports
+. Summary statistics
+.  Dataset shape
+. Missing values table
+. Histograms (price, old price)
+. Boxplots
+. Scatter plot (old price vs current price)
+. Correlation matrix
+. Price variation analysis
+. Top & bottom 20 variation reports
 
 ---
 
@@ -219,9 +211,9 @@ Includes:
 
 This project respects:
 
-✔ Public product information
-✔ Jumia's server load (via timed requests)
-✔ Identified user-agent with contact email
+ Public product information
+ Jumia's server load (via timed requests)
+ Identified user-agent with contact email
 
 No personal data is collected.
 
